@@ -2,7 +2,7 @@
 Simple cli nodejs todo
 
 ## Installation 
-1. Use git clone to the repo
+1. Use git to clone to the repo
 2. Use `npm install` to install dependancies
 
 ## Usage
