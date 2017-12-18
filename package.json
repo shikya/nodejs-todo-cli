@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-todo-cli",
+  "version": "1.0.0",
+  "description": "Simple nodejs cli app",
+  "main": "index.js",
+  "scripts": {
+    "start-development": "nodemon .",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikya/nodejs-todo-cli.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli",
+    "simple"
+  ],
+  "author": "shrikantsonone@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shikya/nodejs-todo-cli/issues"
+  },
+  "homepage": "https://github.com/shikya/nodejs-todo-cli#readme",
+  "dependencies": {
+    "nodemon": "^1.13.3",
+    "yargs": "^10.0.3"
+  }
+}
