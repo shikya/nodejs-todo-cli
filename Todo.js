@@ -18,7 +18,8 @@ const getTodos = () => {
 };
 
 const appendTodo = (todo) => {
-    var todos = this.getTodos();
+    debugger;
+    var todos = getTodos();
     const isPreset = (todos.filter(interator => interator.title === todo.title)).length > 0;
     if(isPreset)
         console.log("Already Present");
@@ -37,15 +38,21 @@ const deleteTodo = (title) => {
 };
 
 const getTodo = (title) => {
-    debugger;
     const todos = getTodos();
     var filteredTodos = todos.filter(singleTodo => title == singleTodo.title);
     return filteredTodos[0];
+}
+
+const prittyPrint = todo => {
+    if(todo){
+        console.log(`\nTitle: ${todo.title}\nBody: ${todo.body}`);        
+    }
 }
 
 module.exports = {
     getTodos,
     appendTodo,
     deleteTodo,
-    getTodo
+    getTodo,
+    prittyPrint
 };
